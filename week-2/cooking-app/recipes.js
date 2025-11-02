@@ -7,13 +7,7 @@
 
 // Define the createRecipe function
 function createRecipe(ingredients) {
-  ingredientList = "Recipe created with ingredients: ";
-
-  ingredients.forEach(function (ingredient, i) {
-    ingredientList += `${ingredient}${ingredients[++i] ? ", " : ""}`;
-  });
-
-  return ingredientList;
+  return `Recipe created with ingredients: ${ingredients.join(", ")}`;
 }
 
 // Define the setTimer function
