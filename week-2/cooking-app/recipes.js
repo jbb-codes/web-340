@@ -7,6 +7,9 @@
 
 // Define the createRecipe function
 function createRecipe(ingredients) {
+  // Wanted to simplify what I had; I was studying the spread operator and
+  // using join was suggested by an AI prompt as a common way to join array items
+  // much cleaner and a good reminder to search through the built in methods
   return `Recipe created with ingredients: ${ingredients.join(", ")}`;
 }
 
