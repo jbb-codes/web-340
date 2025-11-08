@@ -11,6 +11,8 @@ const planets = {
 
 // I used AI to figure out how to convert the value back to a Number since
 // the toFixed method converts it to a string; the Number function was suggested.
+// I got the idea to test object properties and throw an error for input validation
+// from a classmate
 
 // Calculate the distance between two planets using AU(Astronomical Units).
 function calculateDistance(planet1, planet2) {
