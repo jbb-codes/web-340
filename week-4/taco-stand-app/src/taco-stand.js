@@ -9,8 +9,6 @@
 
 const EventEmitter = require("events");
 
-// TODO: Create a TacoStandEmitter class that extends EventEmitter and implements the following methods: serveCustomer, prepareTaco, and handleRush
-
 class TacoStandEmitter extends EventEmitter {
   constructor() {
     super();

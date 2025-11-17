@@ -13,11 +13,9 @@ const tacoStand = new TacoStandEmitter();
 
 function testServeCustomer() {
   try {
-    // register an event listener for the "action" event
     tacoStand.on("serve", (customer) => {
       assert.strictEqual(customer, "Bob");
     });
-    // call the perform action method
     tacoStand.serveCustomer("Bob");
     console.log("Passed testServeCustomer");
     return true;
@@ -29,11 +27,9 @@ function testServeCustomer() {
 
 function testPrepareTaco() {
   try {
-    // register an event listener for the "action" event
     tacoStand.on("prepare", (taco) => {
       assert.strictEqual(taco, "Beef");
     });
-    // call the perform action method
     tacoStand.prepareTaco("Beef");
     console.log("Passed testPrepareTaco");
     return true;
@@ -45,11 +41,9 @@ function testPrepareTaco() {
 
 function testHandleRush() {
   try {
-    // register an event listener for the "action" event
     tacoStand.on("rush", (rush) => {
       assert.strictEqual(rush, "lunch");
     });
-    // call the perform action method
     tacoStand.handleRush("lunch");
     console.log("Passed testHandleRush");
     return true;
