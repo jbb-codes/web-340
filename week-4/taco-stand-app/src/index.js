@@ -26,7 +26,7 @@ tacoStand.on("serve", (customer) => {
 });
 
 tacoStand.on("prepare", (taco) => {
-  console.log(`Taco Stand prepares: ${taco}`);
+  console.log(`Taco Stand prepares: ${taco} taco`);
 });
 
 tacoStand.on("rush", (rush) => {
