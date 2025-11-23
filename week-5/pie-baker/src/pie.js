@@ -9,6 +9,7 @@
 function bakePie(pieType, ingredients) {
   essentialIngredients = ["flour", "sugar", "butter"];
 
+  // Used AI to find method combo for checking if array has all items in another array
   let hasEssential = essentialIngredients.every((essential) =>
     ingredients.includes(essential)
   );
